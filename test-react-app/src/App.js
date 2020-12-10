@@ -1,14 +1,15 @@
-
+import React from 'react';
 import './App.css';
+import Parent from './Parent.js';
 
-function App() {
-  return (
-    <p>
-      <hi>i am Muhammad Ali</hi>
-    </p>
-      </header>
-    </div>
-  );
+function App() 
+{
+  return  (
+  
+  <Parent dishName="Chicken Karahi" />
+
+   );
+  
 }
 
 export default App;
